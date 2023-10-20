@@ -32,11 +32,11 @@ WebDriver driver;
     WebElement singin=driver.findElement(By.id("nav-link-accountList"));
     singin.click();
     WebElement email=driver.findElement(By.id("ap_email"));
-	email.sendKeys("amitmarathe1012@gmail.com");
+	email.sendKeys("xxxxxxxxxxxx.com");
 	WebElement cont=driver.findElement(By.id("continue"));
 	cont.click();		
 	WebElement password=driver.findElement(By.id("ap_password"));
-	password.sendKeys("Amit@101297");
+	password.sendKeys("xxxxxxx@hhhggg");
     WebElement singinBtn=driver.findElement(By.id("signInSubmit"));
 	singinBtn.click();
 		    
